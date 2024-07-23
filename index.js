@@ -1,9 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const splitWord = word.split("").reverse().join("");
+  return splitWord === word;
+
 }
 
 /* 
   Add your pseudocode here
+  write function  isPalindrome
+  split word using split("") 
+  arrage letters in reverse the word
+  join the letter
+  
 */
 
 /*
